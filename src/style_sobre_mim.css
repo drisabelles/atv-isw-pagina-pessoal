@@ -1,0 +1,418 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+/* barra de navegação */
+.barra_nav {
+    width: 100%;
+    height: 60px;
+    background: rgba(240,240,240,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+/* logo */
+.logo {
+    width: 90px;
+    height: 30px;
+    background: rgba(229,229,229,1);
+    opacity: 1;
+    position: absolute;
+    top: 13px;
+    left: 265px;
+    border: 1px solid rgba(0,0,0,0.30000001192092896);
+}
+
+/*edições botão 1 - home*/
+.caixa_botao1 {
+    width: 400px;
+    height: 400px;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 710px;
+    overflow: hidden;
+}
+
+.botao1 {
+    width: 120px;
+    height: 40px;
+    background: rgba(150,145,145,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.texto_botao1 {
+    width: 95px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+}
+
+
+/*edições botão 2 - portfolio*/
+.caixa_botao2 {
+    width: 140px;
+    height: 50px;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 855px;
+    overflow: hidden;
+}
+  
+.botao2 {
+    width: 120px;
+    height: 40px;
+    background: rgba(150,145,145,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.texto_botao2 {
+    width: 99px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+}
+
+/*edições botão 3 - contato*/
+.caixa_botao3 {
+    width: 140px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 1003px;
+    overflow: hidden;
+}
+
+.botao3 {
+    width: 120px;
+    height: 40px;
+    background: rgba(150,145,145,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.texto_botao3 {
+    width: 83px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 3px;
+    left: 15px;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+}
+
+/* título da página*/
+.caixa_titulo {
+    width: 491px;
+    height: 308px;
+    background: url("../images/v26_10.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 63px;
+    left: 140px;
+    overflow: hidden;
+}
+
+.fundo1 {
+    width: 620px;
+    height: 400px;
+    background: rgb(172, 170, 170);
+    opacity: 1;
+    position: absolute;
+    top: 70px;
+    left: 5px;
+}
+
+.fundo2 {
+    width: 620px;
+    height: 400px;
+    background: rgb(238, 236, 236);
+    opacity: 1;
+    position: absolute;
+    top: 90px;
+    left: 15px;
+}
+
+.titulo_parte1 {
+    width: 353px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 82px;
+    left: 75px;
+    font-family: Noto Sans HK;
+    font-weight: Bold;
+    font-size: 100px;
+    opacity: 1;
+    text-align: left;
+}
+
+.titulo_parte2 {
+    width: 210px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 174px;
+    left: 185px;
+    font-family: Noto Sans HK;
+    font-weight: Bold;
+    font-size: 100px;
+    opacity: 1;
+    text-align: left;
+}
+
+/*foto do autor*/
+.caixa_foto {
+    width: 404px;
+    height: 400px;
+    margin: 10px;
+    opacity: 1;
+    position: absolute;
+    top: 383px;
+    left: 178px;
+    overflow: hidden;
+}
+
+.foto {
+    width: 404px;
+    height: 265px;
+    background: rgba(229,229,229,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(0,0,0,0.30000001192092896);
+}
+
+.cortar {
+    width: 18px;
+    height: 18px;
+    opacity: 1;
+    position: absolute;
+    top: 280px;
+    left: 80px;
+}
+
+.efeito {
+    width: 4px;
+    opacity: 1;
+    position: absolute;
+    top: 280px;
+    left: 280px;
+}
+
+/*edição dados do autor*/
+.caixa_dados {
+    width: 640px;
+    height: 640px;
+    opacity: 1;
+    position: absolute;
+    top: 70px;
+    left: 640px;
+    overflow: hidden;
+}
+  
+.subtitulo_dados {
+    width: 686px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    font-family: Noto Sans HK;
+    font-weight: Bold;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+}
+  
+.infos_dados {
+    width: 486px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+/*edição da formação acadêmica*/
+.caixa_formacao_acad {
+    width: 724px;
+    height: 202px;
+    opacity: 1;
+    position: absolute;
+    top: 179px;
+    left: 640px;
+    overflow: hidden;
+}
+
+.subtitulo_formacao {
+    width: 686px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    font-family: Noto Sans HK;
+    font-weight: Bold;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+}
+  
+.infos_formacao {
+    width: 686px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: justified;
+}
+
+/*edição dos cursos do autor */
+.caixa_cursos {
+    width: 724px;
+    height: 208px;
+    opacity: 1;
+    position: absolute;
+    top: 365px;
+    left: 612px;
+    overflow: hidden;
+}
+
+.subtitulo_cursos {
+    width: 686px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 35px;
+    left: 36px;
+    font-family: Noto Sans HK;
+    font-weight: Bold;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+}
+
+.infos_cursos {
+    width: 686px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 65px;
+    left: 40px;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: justified;
+}
+
+/*edição dos hobbies do autor*/
+.caixa_hobbies {
+    width: 686px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 111px;
+    left: 74px;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: justified;
+}
+
+.subtitulo_hobbies {
+    width: 686px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 460px;
+    left: 580px;
+    font-family: Noto Sans HK;
+    font-weight: Bold;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+}
+  
+.infos_hobbies1 {
+    width: 225px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 490px;
+    left: 600px;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: justified;
+}
+
+.infos_hobbies2 {
+    width: 225px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 490px;
+    left: 900px;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: justified;
+}
+

@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+/*edições da barra de navegação*/
+.barra_nav {
+    width: 100%;
+    height: 60px;
+    background: rgba(240,240,240,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+/*edições do logo provisório*/
+.logo {
+    width: 90px;
+    height: 30px;
+    background: rgba(229,229,229,1);
+    opacity: 1;
+    position: absolute;
+    top: 13px;
+    left: 265px;
+    border: 1px solid rgba(0,0,0,0.30000001192092896);
+}
+
+/*edições do botão 1 - home*/
+.caixa_botao1 {
+    width: 120px;
+    height: 120px;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 698px;
+    overflow: hidden;
+}
+
+.botao1 {
+    width: 120px;
+    height: 40px;
+    background: rgba(150,145,145,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+  
+.texto_botao1 {
+    width: 102px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+}
+
+/*edições do botão 2 - sobre mim*/
+.caixa_botao2 {
+    width: 120px;
+    height: 120px;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 849px;
+    overflow: hidden;
+}
+  
+.botao2 {
+    width: 120px;
+    height: 40px;
+    background: rgba(150,145,145,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.texto_botao2 {
+    width: 99px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+}
+
+/*edições do botão 3 - portfólio*/
+.caixa_botao3 {
+    width: 120px;
+    height: 120px;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+    overflow: hidden;
+}
+
+.botao3 {
+    width: 120px;
+    height: 40px;
+    background: rgba(150,145,145,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.texto_botao3 {
+    width: 99px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+}
+
+/*edições do título*/
+.fundo1 {
+    width: 500px;
+    height: 200px;
+    background: rgba(196,196,196,1);
+    opacity: 1;
+    position: absolute;
+    top: 130px;
+    left: 375px;
+}
+  
+.fundo2 {
+    width: 500px;
+    height: 200px;
+    background: rgba(240,240,240,1);
+    opacity: 1;
+    position: absolute;
+    top: 115px;
+    left: 395px;
+}
+  
+.titulo {
+    width: 431px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 128px;
+    left: 425px;
+    font-family: Noto Sans HK;
+    font-weight: Bold;
+    font-size: 100px;
+    opacity: 1;
+    text-align: center;
+}
+
+/*edições dos meios de contato*/
+.contato1 {
+    width: 92px;
+    height: 96px;
+    opacity: 1;
+    position: absolute;
+    top: 375px;
+    left: 594px;
+    overflow: hidden;
+}
+  
+.contato2 {
+    width: 90px;
+    height: 90px;
+    opacity: 1;
+    position: absolute;
+    top: 487px;
+    left: 460px;
+    overflow: hidden;
+}
+  
+.contato3 {
+    width: 92px;
+    height: 96px;
+    opacity: 1;
+    position: absolute;
+    top: 484px;
+    left: 728px;
+    overflow: hidden;
+}
+  
+.contato4 {
+    width: 92px;
+    height: 96px;
+    opacity: 1;
+    position: absolute;
+    top: 375px;
+    left: 834px;
+    overflow: hidden;
+}
+
+.contato5 {
+    width: 90px;
+    height: 90px;
+    opacity: 1;
+    position: absolute;
+    top: 378px;
+    left: 356px;
+    overflow: hidden;
+}
+
+/*edição da nota de rodapé*/
+.rodape {
+    width: 400px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 630px;
+    left: 499px;
+    font-family: Noto Sans HK;
+    font-weight: Light;
+    font-size: 14px;
+    opacity: 1;
+    text-align: absolute;
+}

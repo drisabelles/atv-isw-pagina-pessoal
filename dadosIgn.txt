@@ -1,0 +1,14 @@
+Exigências do projeto:
+
+~ foto do autor (dimensionável e poder colocar efeitos)
+~ interfaces organizadas (home e no mínimo + 3)
+~ usar um framework css para estilizar
+~ logo ou imagem para identidade visual
+~ paleta de cores e design único
+
+Fases do projeto:
+
+1 - entrega em 31/01
+~ wirefame web e mobile
+~ protótipo navegável
+~ vídeo falando sobre 3 tags html e 3 regras css

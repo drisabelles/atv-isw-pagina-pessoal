@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+/*inicio edições da barra de navegação*/
+.barra_nav {
+    width: 100%;
+    height: 60px;
+    background: rgba(240,240,240,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+
+/*edição caixa provisória do logo*/
+.logo {
+    width: 90px;
+    height: 30px;
+    background: rgba(229,229,229,1);
+    opacity: 1;
+    position: absolute;
+    top: 13px;
+    left: 265px;
+    border: 1px solid rgba(0,0,0,0.30000001192092896);
+}
+
+/*edições botão 1 - sobre mim*/
+.caixa_botao1 {
+    width: 400px;
+    height: 400px;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 710px;
+    overflow: hidden;
+}
+
+.botao1 {
+    width: 120px;
+    height: 40px;
+    background: rgba(150,145,145,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.texto_botao1 {
+    width: 99px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+}
+
+/*edições botão 2 - portfolio*/
+.caixa_botao2 {
+    width: 400px;
+    height: 400px;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 850px;
+    overflow: hidden;
+}
+
+.botao2 {
+    width: 120px;
+    height: 40px;
+    background: rgba(150,145,145,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 7px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.texto_botao2 {
+    width: 83px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+}
+
+/*edições botão 3 - contato*/
+.caixa_botao3 {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+    overflow: hidden;
+}
+
+.botao3 {
+    width: 120px;
+    height: 40px;
+    background: rgba(150,145,145,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.texto_botao3 {
+    width: 99px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+}
+
+/*edições da frase central da página*/
+
+.caixa_frase {
+    width: 100%;
+    height: 1012px;
+    opacity: 1;
+    position: absolute;
+    top: 110px;
+    left: 200px;
+    overflow: hidden;
+}
+  
+.boas_vindas {
+    width: 700px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 30px;
+    left: 450px;
+    font-family: Noto Sans HK;
+    font-weight: Black;
+    font-size: 105px;
+    opacity: 1;
+    text-align: left;
+}
+
+/*espaço  provisório para inserção da ilustração*/
+.caixa_ilustracao {
+  width: 450px;
+  height: 450px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 157px;
+  left: 130px;
+  overflow: hidden;
+}
+
+.ilustracao {
+  width: 372px;
+  height: 429px;
+  background: rgba(229,229,229,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 70px;
+  border: 1px solid rgba(0,0,0,0.30000001192092896);
+}
+
+
+
