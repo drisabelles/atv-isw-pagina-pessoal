@@ -3,7 +3,7 @@
 
 <h2 text align="center">Fatec Prof Jessen Vidal - São José dos Campos</h2>
  <br>
- 
+<p align="justify"> 
  ## - Identificação - 
  Nome: Isabelle Dias Ribeiro Silva
  RA: 1461392111023
@@ -34,11 +34,11 @@ O objetivo principal do projeto é desenvolver um sistema de página pessoal na 
     Estes arquivos funcionam em conjunto e dizem respeito a terceira interface desenvolvida, na qual é possível adicionar os projetos que já foram desenvolvidos pelo usuário e os que ele pretende ou está desenvolvendo. É possível inserir links para o acesso aos já desenvolvidos e previsões para os ainda não completados. A navegação dessa página para as demais, inclusive a home, também é possível com os botões.
     
     1.4 Arquivos "contato.html" e "style_contato.css"
-    Estes arquivos funcionam em conjunto e dizem espeito a quarta interface desenvolvida, na qual é possível inserir os canais nos quais é possível entrar em contato com o usuário, todos carregando links para acessar páginas externas dos demais perfis que a pessoa tenha. Também se pode navegar dessa página às demais através dos botões
+    Estes arquivos funcionam em conjunto e dizem espeito a quarta interface desenvolvida, na qual é possível inserir os canais nos quais é possível entrar em contato com o usuário, todos carregando links para acessar páginas externas dos demais perfis que a pessoa tenha. Também se pode navegar dessa página às demais através dos botões.
 
 2. Pasta "mgt" - *Principal*
 Nesta pasta encontra-se um arquivo PDF denominado "PaginaPessoal_Wireframes_Web_e_Mobile" contendo os wireframes web e mobile do sistema em questão, estando bem rascunhados, ainda não contam com cor nem muitas imagens ou ilustrações, realmente têm o objetivo de demonstrar uma estética futura mais desenvolvida, que pode vir a sofrer mudanças pequenas ao longo do semestre, visando otimizar a utilização e apelo visual.
 
 ## - Vídeo Demonstrativo e Explicativo - 
 Foi executado um vídeo sucinto para demonstrar a funcionalidade do projeto do sistema através de um protótipo e também explicar algumas tags HTML e regras CSS contidas nos códigos-fonte citados acima e encontrados no repositório.
-Para acessar o vídeo: [Clique Aqui](/*inserir link do video*/) 
+Para acessar o vídeo: [Clique Aqui](/*inserir link do video*/) </p>
