@@ -18,7 +18,7 @@
 
  ## - Pastas e Arquivos - 
 1. Pasta "src" - *Principal*
- <p align="justify">Nesta pasta podem ser encontrados todos os aquivos contendo os códigos-fonte das interfaces desenvolvidas até o momento, sendo eles em HTML e CSS. É possível econtrar também a pasta "images" que contém apenas as aimagens utilizadas dentro de algumas interfaces, nada mais além disso.</p>
+ <p align="justify">Nesta pasta podem ser encontrados todos os aquivos contendo os códigos-fonte das interfaces desenvolvidas até o momento, sendo eles em HTML e CSS. É possível econtrar também a pasta "images" (não principal) que contém apenas as aimagens utilizadas dentro de algumas interfaces, nada mais além disso.</p>
  
 <ul>
 <li>1.1 Arquivos "home.html" e "style_home.css": Estes arquivos funcionam em conjunto e ambos condizem a página inicial. Ela é uma introdução às demais interfaces, podendo levar até elas através de botões localizados na parte superior direita.</li>
