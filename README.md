@@ -32,6 +32,7 @@
 
 2. Pasta "mgt" - *Principal*
 <p align="justify"> Nesta pasta encontra-se um arquivo PDF denominado "PaginaPessoal_Wireframes_Web_e_Mobile" contendo os wireframes web e mobile do sistema em questão, estando bem rascunhados, ainda não contam com cor nem muitas imagens ou ilustrações, realmente têm o objetivo de demonstrar uma estética futura mais desenvolvida, que pode vir a sofrer mudanças pequenas ao longo do semestre, visando otimizar a utilização e apelo visual.</p>
+<br>
 
 ## - Vídeo Demonstrativo e Explicativo - 
 <p align="justify"> Foi executado um vídeo sucinto para demonstrar a funcionalidade do projeto do sistema através de um protótipo e também explicar algumas tags HTML e regras CSS contidas nos códigos-fonte citados acima e encontrados no repositório.
