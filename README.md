@@ -6,7 +6,8 @@
  
  ## - Identificação - 
  Nome: Isabelle Dias Ribeiro Silva   <br>RA: 1461392111023   <br>Período: Manhã   <br>Semestre: 01   <br>Curso: Desenvolvimento de Software Multiplataforma
- <br/>
+ <br>
+ <br>
  
  ## - Descrição do Repositório -  
 <p align="justify"> Repositório destinado ao trabalho de Sistema de Página Pessoal, ao qual compete à disciplina de Design Digital ministrada por Fabrício Galende, no 1º Semestre do curso de Desenvolvimento de Software Multiplataforma.</p>
