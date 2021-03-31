@@ -37,4 +37,4 @@
 
 ## - Vídeo Demonstrativo e Explicativo - 
 <p align="justify"> Foi executado um vídeo sucinto para demonstrar a funcionalidade do projeto do sistema através de um protótipo e também explicar algumas tags HTML e regras CSS contidas nos códigos-fonte citados acima e encontrados no repositório.
-Para acessar o vídeo: [Clique Aqui](/*inserir link do video*/) </p>
+Para acessar o vídeo: [Clique Aqui](https://youtu.be/DO8BErAAr_o) | Caso não consiga acesar ao clicar, segue o link: https://youtu.be/DO8BErAAr_o</p>
