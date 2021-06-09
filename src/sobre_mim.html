@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet" />
     <link href = "style_sobre_mim.css" rel = "stylesheet">
+    <link rel="shorcut icon" href ="images/dice-6.svg"/>
     <title>Sobre Mim</title>
 </head>
 <body> 
@@ -16,64 +18,68 @@
                 
             <!-- logo -->
             <div class="logo">
-                Logo
+                <img src="images/IDRS.png">
             </div>
 
             <!-- botão 1-->
             <div class="caixa_botao1">
 
-                <button class="botao1">
+                <a href='home.html'>
 
-                    <span class="texto_botao1">
-                        <a href='home.html'>HOME</a>
-                    </span>
+                    <button class="botao1">
 
-                </button>
+                        <span class="texto_botao1">
+                            HOME
+                        </span>
+
+                    </button>
+
+                </a>    
 
             </div>
 
             <!-- botão 2 -->
             <div class="caixa_botao2">
 
-                <button class="botao2">
+                <a href='portfolio.html'>
 
-                    <span class="texto_botao2">
-                        <a href='portfolio.html'>PORTFOLIO</a>
-                    </span>
+                    <button class="botao2">
 
-                </button>
+                        <span class="texto_botao2">
+                            PORTFOLIO
+                        </span>
+                        
+                    </button>
+                
+                </a>
 
             </div>
 
             <!-- botão 3 -->
             <div class="caixa_botao3">
 
-                <button class="botao3">
+                <a href="contato.html">
 
-                    <span class="texto_botao3">
-                        <a href='contato.html'>CONTATO</a>
-                    </span>
+                    <button class="botao3">
 
-                </button>
+                        <span class="texto_botao3">
+                            CONTATO
+                        </span>
+
+                    </button>
+                </a>
 
             </div>
 
         </nav>
 
     </div>
-
-    <!-- conteúdo da página -->
-    <div>
                 
         <!-- título da página -->
         <div class="caixa_titulo">
 
             <div class="fundo1">
-    
-            </div>
-
-            <div class="fundo2">
-    
+                <img src = "images/Vectorfundo3.png">
             </div>
 
             <span class="titulo_parte1">
@@ -90,128 +96,57 @@
         <div class="caixa_foto">
 
             <div class="foto">
-                Foto do Autor
-            </div>
-
-            <div class="cortar">
-                <img src="./images/crop.png">
-            </div>
-
-            <div class="efeito">
-                <img src="./images/loader.png">
+                <img src = "./images/autora.jpg">
             </div>
 
         </div>
 
-        <!-- dados do autor -->
-        <div class="caixa_dados">
+        <!-- cards com informações do autor -->
 
-            <span class="subtitulo_dados">
-                Dados
-            </span>
-
-            <span class="infos_dados">
-                Isabelle Dias Ribeiro Silva, 20 anos. Brasileira, solteira. São José dos Campos - São Paulo.
-            </span>
-
-        </div>
-
-        <!-- formação acadêmica do autor -->
-        <div class="caixa_formacao_acad">
-            <span class="subtitulo_formacao">
-                    Formação Acadêmica
-                </span>
-                    
-                <span class="infos_formacao">
-
-                    <ul>
-                        <li>
-                            Eos qui ratione voluptatem sequi nesciunt 
-                            Data: 2015 - 2017. 
-                        </li>
-
-                        <li>
-                            Eos qui ratione voluptatem sequi nesciunt
-                            Data: 2015 - 2017. 
-                        </li>
-                            
-                        <li>
-                            Eos qui ratione voluptatem sequi nesciunt 
-                            Data: 2015 - 2017.
-                        </li>
-                    </ul>            
-                </span>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Dados</h5>
+                  <p class="card-text">Isabelle Dias Ribeiro Silva, 20 anos. Brasileira, solteira. São José dos Campos - São Paulo.</p>
+                </div>
+              </div>
             </div>
-
-            <!-- cursos do autor -->
-            <div class="caixa_cursos">
-
-                <span class="subtitulo_cursos">
-                    Cursos
-                </span>
-
-                <span class="infos_cursos">
-                    <ul>
-
-                        <li>
-                            Eos qui ratione voluptatem sequi nesciunt 
-                            Duração: 200 horas.
-                        </li>
-
-                        <li>
-                            Eos qui ratione voluptatem sequi nesciunt
-                            Duração: 200 horas.
-                        </li>
-
-                        <li>
-                            Eos qui ratione voluptatem sequi nesciunt
-                            Duração: 200 horas.
-                        </li>
-                            
-                    </ul> 
-
-                </span>
-                    
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Formação Acadêmica</h5>
+                  <p class="card-text">Ensino Médio - E.E Alceu Maynard Araújo | 2015-2017
+                                       <br>Técnico em Informática - ETEC Ilza Nascimento Pintus | 2016-2017 
+                                       <br>Desenvolvimento de Software Multiplataforma - FATEC Jessen Vidal | Atualmente
+                  </p>
+                </div>
+              </div>
             </div>
-
-            <!-- hobbies do autor-->
-            <div class="caixa_hobbies">
-
-                <span class="subtitulo_hobbies">
-                    Hobbies
-                </span>
-
-                <!-- lado esquerdo-->
-                <span class="infos_hobbies1">
-                    <ul>
-                        <li>
-                            Eos qui ratione
-                        </li>
-
-                        <li>
-                            Eos qui ratione
-                        </li>
-                    </ul>
-                </span>
-
-                <!--lado direito-->
-                <span class="infos_hobbies2">
-                    <ul>
-                        <li>
-                            Eos qui ratione
-                        </li>
-
-                        <li>
-                            Eos qui ratione
-                        </li>
-                    </ul>
-                </span>
-
+            <div class="col">
+              <div class="card" style="top: -50px;" >
+                <div class="card-body">
+                  <h5 class="card-title">Cursos</h5>
+                  <p class="card-text">Inglês Avançado | 2011-2015 
+                                       <br>Espanhol Básico | 6 meses
+                                       <br>Informática Básica | 6 meses 
+                  </p>
+                </div>
+              </div>
             </div>
-             
-        </div>
-            
-    </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Hobbies</h5>
+                  <p class="card-text"><li>Pintura acrílica</li>
+                                        <li>Leitura</li>
+                                        <li>Natação</li>
+                                        <li>Documentários True Crime</li>
+                  </p>
+                </div>
+              </div>
+            </div>
+        </div>       
 
 </body>
 </html>

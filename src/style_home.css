@@ -3,32 +3,32 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #ABD1C6;
+    background-attachment: fixed
 }
 
 /*inicio edições da barra de navegação*/
 .barra_nav {
     width: 100%;
     height: 60px;
-    background: rgba(240,240,240,1);
+    background: #fffffe;
     opacity: 1;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     overflow: hidden;
 }
 
 
-/*edição caixa provisória do logo*/
-.logo {
-    width: 90px;
-    height: 30px;
-    background: rgba(229,229,229,1);
+/*logo*/
+.logo img{
+    width: 70px;
+    height: 70px;
     opacity: 1;
     position: absolute;
-    top: 13px;
-    left: 265px;
-    border: 1px solid rgba(0,0,0,0.30000001192092896);
+    top: 0px;
+    left: 200px;
+    overflow: hidden;
 }
 
 /*edições botão 1 - sobre mim*/
@@ -36,96 +36,16 @@ body {
     width: 400px;
     height: 400px;
     opacity: 1;
-    position: absolute;
+    position: fixed;
     top: 10px;
-    left: 710px;
+    left: 835px;
     overflow: hidden;
 }
 
 .botao1 {
     width: 120px;
     height: 40px;
-    background: rgba(150,145,145,1);
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 5px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    overflow: hidden;
-}
-
-.texto_botao1 {
-    width: 99px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 5px;
-    left: 7px;
-    font-family: Noto Sans HK;
-    font-weight: Regular;
-    font-size: 18px;
-    opacity: 1;
-    text-align: center;
-}
-
-/*edições botão 2 - portfolio*/
-.caixa_botao2 {
-    width: 400px;
-    height: 400px;
-    opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 850px;
-    overflow: hidden;
-}
-
-.botao2 {
-    width: 120px;
-    height: 40px;
-    background: rgba(150,145,145,1);
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 7px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    overflow: hidden;
-}
-
-.texto_botao2 {
-    width: 83px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 5px;
-    left: 7px;
-    font-family: Noto Sans HK;
-    font-weight: Regular;
-    font-size: 18px;
-    opacity: 1;
-    text-align: center;
-}
-
-/*edições botão 3 - contato*/
-.caixa_botao3 {
-    width: 200px;
-    height: 200px;
-    opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 1000px;
-    overflow: hidden;
-}
-
-.botao3 {
-    width: 120px;
-    height: 40px;
-    background: rgba(150,145,145,1);
+    background: #f9bc60;
     opacity: 1;
     position: relative;
     top: 0px;
@@ -134,21 +54,113 @@ body {
     border-top-right-radius: 6px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     overflow: hidden;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
-.texto_botao3 {
+.texto_botao1 {
     width: 99px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 5px;
-    left: 8px;
+    color: #001e1d;
+    position: center;
     font-family: Noto Sans HK;
     font-weight: Regular;
     font-size: 18px;
     opacity: 1;
     text-align: center;
+}
+
+.botao1:hover{
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+/*edições botão 2 - portfolio*/
+.caixa_botao2 {
+    width: 400px;
+    height: 400px;
+    opacity: 1;
+    position: fixed;
+    top: 10px;
+    left: 985px;
+    overflow: hidden;
+}
+
+.botao2 {
+    width: 120px;
+    height: 40px;
+    background: #f9bc60;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    overflow: hidden;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.texto_botao2 {
+    width: 83px;
+    color: #001e1d;
+    position: center;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+}
+
+.botao2:hover{
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+/*edições botão 3 - contato*/
+.caixa_botao3 {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+    position: fixed;
+    top: 10px;
+    left: 1135px;
+    overflow: hidden;
+}
+
+.botao3 {
+    width: 120px;
+    height: 40px;
+    background: #f9bc60;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    overflow: hidden;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.texto_botao3 {
+    width: 99px;
+    color: #001e1d;
+    position: center;
+    font-family: Noto Sans HK;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+}
+
+.botao3:hover{
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 
 /*edições da frase central da página*/
@@ -157,20 +169,20 @@ body {
     width: 100%;
     height: 1012px;
     opacity: 1;
-    position: absolute;
-    top: 110px;
-    left: 200px;
+    position: fixed;
+    top: 140px;
+    left: 250px;
     overflow: hidden;
 }
   
 .boas_vindas {
     width: 700px;
-    color: rgba(0,0,0,1);
+    color: #004643;
     position: absolute;
     top: 30px;
     left: 450px;
     font-family: Noto Sans HK;
-    font-weight: Black;
+    font-weight: bolder;
     font-size: 105px;
     opacity: 1;
     text-align: left;
@@ -178,25 +190,28 @@ body {
 
 /*espaço  provisório para inserção da ilustração*/
 .caixa_ilustracao {
-  width: 450px;
-  height: 450px;
-  background: rgba(255,255,255,1);
+  width: 600px;
+  height: 700px;
   opacity: 1;
-  position: absolute;
-  top: 157px;
-  left: 130px;
+  position: fixed;
+  top: 85px;
+  left: 100px;
   overflow: hidden;
 }
 
-.ilustracao {
-  width: 372px;
-  height: 429px;
-  background: rgba(229,229,229,1);
+.ilustracao img{
+  max-width: 600px;
+  height: auto;
   opacity: 1;
   position: absolute;
   top: 0px;
-  left: 70px;
-  border: 1px solid rgba(0,0,0,0.30000001192092896);
+  left: 0px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.ilustracao img:hover{
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 
 

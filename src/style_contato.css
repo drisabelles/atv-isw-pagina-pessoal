@@ -3,48 +3,47 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #abd1c6;
 }
 
 /*edições da barra de navegação*/
 .barra_nav {
     width: 100%;
     height: 60px;
-    background: rgba(240,240,240,1);
+    background: #fffffe;
     opacity: 1;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     overflow: hidden;
 }
 
-/*edições do logo provisório*/
-.logo {
-    width: 90px;
-    height: 30px;
-    background: rgba(229,229,229,1);
+/*edições do logo*/
+.logo img {
+    width: 70px;
+    height: 70px;
     opacity: 1;
     position: absolute;
-    top: 13px;
-    left: 265px;
-    border: 1px solid rgba(0,0,0,0.30000001192092896);
+    top: 0px;
+    left: 200px;
+    overflow: hidden;
 }
 
 /*edições do botão 1 - home*/
 .caixa_botao1 {
-    width: 120px;
-    height: 120px;
+    width: 400px;
+    height: 400px;
     opacity: 1;
     position: absolute;
     top: 10px;
-    left: 698px;
+    left: 835px;
     overflow: hidden;
 }
 
 .botao1 {
     width: 120px;
     height: 40px;
-    background: rgba(150,145,145,1);
+    background: #f9bc60;
     opacity: 1;
     position: absolute;
     top: 0px;
@@ -53,16 +52,16 @@ body {
     border-top-right-radius: 6px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     overflow: hidden;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
 }
   
 .texto_botao1 {
     width: 102px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 5px;
-    left: 6px;
+    color: #001e1d;
+    position: center;
     font-family: Noto Sans HK;
     font-weight: Regular;
     font-size: 18px;
@@ -70,21 +69,25 @@ body {
     text-align: center;
 }
 
+.botao1:hover{
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
 /*edições do botão 2 - sobre mim*/
 .caixa_botao2 {
-    width: 120px;
-    height: 120px;
+    width: 400px;
+    height: 400px;
     opacity: 1;
     position: absolute;
     top: 10px;
-    left: 849px;
+    left: 985px;
     overflow: hidden;
 }
   
 .botao2 {
     width: 120px;
     height: 40px;
-    background: rgba(150,145,145,1);
+    background: #f9bc60;
     opacity: 1;
     position: absolute;
     top: 0px;
@@ -93,16 +96,16 @@ body {
     border-top-right-radius: 6px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     overflow: hidden;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 .texto_botao2 {
     width: 99px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 5px;
-    left: 10px;
+    color: #001e1d;
+    position: center;
     font-family: Noto Sans HK;
     font-weight: Regular;
     font-size: 18px;
@@ -110,21 +113,25 @@ body {
     text-align: center;
 }
 
+.botao2:hover{
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
 /*edições do botão 3 - portfólio*/
 .caixa_botao3 {
-    width: 120px;
-    height: 120px;
+    width: 400px;
+    height: 400px;
     opacity: 1;
     position: absolute;
     top: 10px;
-    left: 1000px;
+    left: 1135px;
     overflow: hidden;
 }
 
 .botao3 {
     width: 120px;
     height: 40px;
-    background: rgba(150,145,145,1);
+    background: #f9bc60;
     opacity: 1;
     position: absolute;
     top: 0px;
@@ -133,16 +140,16 @@ body {
     border-top-right-radius: 6px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     overflow: hidden;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 .texto_botao3 {
     width: 99px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 5px;
-    left: 10px;
+    color: #001e1d;
+    position: center;
     font-family: Noto Sans HK;
     font-weight: Regular;
     font-size: 18px;
@@ -150,25 +157,18 @@ body {
     text-align: center;
 }
 
-/*edições do título*/
-.fundo1 {
-    width: 500px;
-    height: 200px;
-    background: rgba(196,196,196,1);
-    opacity: 1;
-    position: absolute;
-    top: 130px;
-    left: 375px;
+.botao3:hover{
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
-  
-.fundo2 {
-    width: 500px;
-    height: 200px;
-    background: rgba(240,240,240,1);
+
+/*edições do título*/
+.fundo1 img {
+    width: 550px;
+    height: 300px;
     opacity: 1;
     position: absolute;
-    top: 115px;
-    left: 395px;
+    top: 63px;
+    left: 375px;
 }
   
 .titulo {
@@ -191,8 +191,14 @@ body {
     opacity: 1;
     position: absolute;
     top: 375px;
-    left: 594px;
+    left: 460px;
     overflow: hidden;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.contato1:hover{
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
   
 .contato2 {
@@ -203,6 +209,12 @@ body {
     top: 487px;
     left: 460px;
     overflow: hidden;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.contato2:hover{
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
   
 .contato3 {
@@ -213,6 +225,12 @@ body {
     top: 484px;
     left: 728px;
     overflow: hidden;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.contato3:hover{
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
   
 .contato4 {
@@ -221,18 +239,14 @@ body {
     opacity: 1;
     position: absolute;
     top: 375px;
-    left: 834px;
+    left: 728px;
     overflow: hidden;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
-.contato5 {
-    width: 90px;
-    height: 90px;
-    opacity: 1;
-    position: absolute;
-    top: 378px;
-    left: 356px;
-    overflow: hidden;
+.contato4:hover{
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 
 /*edição da nota de rodapé*/

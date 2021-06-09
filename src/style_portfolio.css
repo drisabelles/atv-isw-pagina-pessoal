@@ -3,48 +3,50 @@
 }
 
 body {
-    background-color: #fff;
+    background-image: linear-gradient(to bottom, #004643 50%, #abd1c6 50%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
 /*edições da barra de navegação*/
 .barra_nav {
     width: 100%;
     height: 60px;
-    background: rgba(240,240,240,1);
+    background: #fffffe;
     opacity: 1;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     overflow: hidden;
 }
 
-/*edições temporárias do logo*/ 
-.logo {
-    width: 90px;
-    height: 30px;
-    background: rgba(229,229,229,1);
+/*logo*/ 
+.logo img {
+    width: 70px;
+    height: 70px;
     opacity: 1;
     position: absolute;
-    top: 13px;
-    left: 265px;
-    border: 1px solid rgba(0,0,0,0.30000001192092896);
+    top: 0px;
+    left: 250px;
+    overflow: hidden;
 }
 
 /* edições do botão 1 - home*/
 .caixa_botao1 {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     opacity: 1;
-    position: absolute;
+    position: fixed;
     top: 10px;
-    left: 698px;
+    left: 835px;
     overflow: hidden;
 }
 
 .botao1 {
     width: 120px;
     height: 40px;
-    background: rgba(150,145,145,1);
+    background: #f9bc60;
     opacity: 1;
     position: relative;
     top: 0px;
@@ -53,16 +55,16 @@ body {
     border-top-right-radius: 6px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     overflow: hidden;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 .texto_botao1 {
     width: 102px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 5px;
-    left: 5px;
+    color: #001e1d;
+    position: center;
     font-family: Noto Sans HK;
     font-weight: Regular;
     font-size: 18px;
@@ -70,21 +72,25 @@ body {
     text-align: center;
 }
 
+.botao1:hover{
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
 /* edições do botão 2 - sobre mim*/
 .caixa_botao2 {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     opacity: 1;
-    position: absolute;
+    position: fixed;
     top: 10px;
-    left: 849px;
+    left: 985px;
     overflow: hidden;
 }
 
 .botao2 {
     width: 120px;
     height: 40px;
-    background: rgba(150,145,145,1);
+    background: #f9bc60;
     opacity: 1;
     position: relative;
     top: 0px;
@@ -93,16 +99,16 @@ body {
     border-top-right-radius: 6px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     overflow: hidden;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 .texto_botao2 {
     width: 99px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 5px;
-    left: 8px;
+    color: #001e1d;
+    position: center;
     font-family: Noto Sans HK;
     font-weight: Regular;
     font-size: 18px;
@@ -110,21 +116,25 @@ body {
     text-align: center;
 }
 
+.botao2:hover{
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
 /* edições do botão 3 - contato*/
 .caixa_botao3 {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     opacity: 1;
-    position: absolute;
+    position: fixed;
     top: 10px;
-    left: 1000px;
+    left: 1135px;
     overflow: hidden;
 }
 
 .botao3 {
     width: 120px;
     height: 40px;
-    background: rgba(150,145,145,1);
+    background: #f9bc60;
     opacity: 1;
     position: relative;
     top: 0px;
@@ -133,16 +143,16 @@ body {
     border-top-right-radius: 6px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     overflow: hidden;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 .texto_botao3 {
     width: 83px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 5px;
-    left: 15px;
+    color: #001e1d;
+    position: center;
     font-family: Noto Sans HK;
     font-weight: Regular;
     font-size: 18px;
@@ -150,36 +160,28 @@ body {
     text-align: center;
 }
 
+.botao3:hover{
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
 /*edições da primeira parte do conteúdo - superior***
 ***título*/
 
-.fundo1 {
-    width: 478px;
-    height: 281px;
-    background: rgba(196,196,196,1);
+.fundo1 img {
+    width: 520px;
+    height: 280px;
     opacity: 1;
-    position: absolute;
-    top: 100px;
+    position: fixed;
+    top: 50px;
     left: 182px;
-}
-
-.fundo2 {
-    width: 533px;
-    height: 281px;
-    background: rgba(240,240,240,1);
-    opacity: 1;
-    position: absolute;
-    top: 95px;
-    left: 138px;
-    transform: rotate(-5deg);
 }
 
 .titulo {
     width: 543px;
-    color: rgba(0,0,0,1);
-    position: absolute;
-    top: 185px;
-    left: 198px;
+    color: #001e1d;
+    position: fixed;
+    top: 120px;
+    left: 240px;
     font-family: Noto Sans HK;
     font-weight: Bold;
     font-size: 90px;
@@ -191,9 +193,9 @@ body {
 ***conteúdo*/
 .subtitulo1 {
     width: 686px;
-    color: rgba(0,0,0,1);
-    position: absolute;
-    top: 150px;
+    color: #fffffe;
+    position: fixed;
+    top: 90px;
     left: 730px;
     font-family: Noto Sans HK;
     font-weight: Bold;
@@ -204,9 +206,9 @@ body {
 
 .infos1 {
     width: 566px;
-    color: rgba(0,0,0,0.800000011920929);
-    position: absolute;
-    top: 190px;
+    color: #abd1c6;
+    position: fixed;
+    top: 130px;
     left: 735px;
     font-family: Noto Sans HK;
     font-weight: Regular;
@@ -219,9 +221,9 @@ body {
 ***conteúdo*/
 .subtitulo2 {
     width: 686px;
-    color: rgba(0,0,0,1);
-    position: absolute;
-    top: 450px;
+    color: #001e1d;
+    position: fixed;
+    top: 400px;
     left: 195px;
     font-family: Noto Sans HK;
     font-weight: Bold;
@@ -232,9 +234,9 @@ body {
 
 .infos2 {
     width: 566px;
-    color: rgba(0,0,0,0.800000011920929);
-    position: absolute;
-    top: 490px;
+    color: #0f3433;
+    position: fixed;
+    top: 440px;
     left: 200px;
     font-family: Noto Sans HK;
     font-weight: Regular;
@@ -246,22 +248,34 @@ body {
 /*edições da segunda parte do conteúdo - inferior***
 ***ilustração*/
 .caixa_ilustracao {
-    width: 451px;
-    height: 451px;
+    width: 400px;
+    height: 400px;
     opacity: 1;
-    position: absolute;
-    top: 190px;
-    left: 780px;
+    position: fixed;
+    top: 350px;
+    left: 800px;
     overflow: hidden;
 }
 
-.ilustracao {
-    width: 372px;
-    height: 260px;
-    background: rgba(229,229,229,1);
+.ilustracao img{
+    width: 300px;
+    height: auto;
     opacity: 1;
     position: absolute;
-    top: 190px;
+    top: 0px;
     left: 40px;
-    border: 1px solid rgba(0,0,0,0.30000001192092896);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.ilustracao img:hover{
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+a{
+    color:#abd1c6;
+}
+a:hover{
+    color:#fffffe;
+    font-weight: bold;
 }
