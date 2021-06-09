@@ -36,6 +36,10 @@
 Agora foi adicionado um PDF contendo os frames do protótipo mobile, pois uma vez que esse ainda não foi desenvolvido, o material que há para sua análise é documental. Entretante, é possível acessar este protótipo navegável no Figma. Para acessar, <a href = "https://www.figma.com/proto/CYSqVZkAcxtwZCBaNOzzfy/Prot%C3%B3tiopo_Mobile?node-id=1%3A64&scaling=min-zoom&page-id=0%3A1">clique aqui.</a></p>
 <br>
 
+## - Modificações -
+<p align="justify">Atenção para as modificações que foram feitas tanto na versão desktop quanto mobile, mas cabe aqui informar que elas foram efetudas apenas para a otimização do projeto. As cores foram adicionadas para trazer estética e perfil únido, juntamente da disposição de informações que no momento pareceu ser a mais cabível e possível. Foram adicionados cards para a inserção de conteúdo apenas na página "sobre mim", que parecia ser a menor organizada entre as demais. Concluindo: maiores mudanças não foram executadas, o modelo inicial mantém sua essência.</p>
+<br>
+
 ## - Vídeo Demonstrativo e Explicativo - 
 <p align="justify"> Um novo vídeo foi desenvolvido para explicar e mostrar as novas funcionalidades e mudanças que o projeto sofreu, sendo sucinto e buscando atentar-se aos pontos mais importantes do sistema. Para acessar e assistir a esse vídeo mais recente, por favor <a href = "https://youtu.be/7iTeU3yWxiM">clique aqui.</a></p>
 <p align="justify"> Para acessar o primeiro vídeo que foi feito sobre estre projeto, <a href = "https://youtu.be/DO8BErAAr_o">clique aqui.</a></p>
