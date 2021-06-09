@@ -32,9 +32,10 @@
 </ul>
 
 2. Pasta "mgt" - *Principal*
-<p align="justify"> Nesta pasta encontra-se um arquivo PDF denominado "PaginaPessoal_Wireframes_Web_e_Mobile" contendo os wireframes web e mobile do sistema em questão, estando bem rascunhados, ainda não contam com cor nem muitas imagens ou ilustrações, realmente têm o objetivo de demonstrar uma estética futura mais desenvolvida, que pode vir a sofrer mudanças pequenas ao longo do semestre, visando otimizar a utilização e apelo visual.</p>
+<p align="justify"> Nesta pasta encontra-se um arquivo PDF denominado "PaginaPessoal_Wireframes_Web_e_Mobile" contendo os wireframes web e mobile do sistema em questão, estando bem rascunhados, ainda não contam com cor nem muitas imagens ou ilustrações, realmente têm o objetivo de demonstrar uma estética futura mais desenvolvida, que pode vir a sofrer mudanças pequenas ao longo do semestre, visando otimizar a utilização e apelo visual.
+Agora foi adicionado um PDF contendo os frames do protótipo mobile, pois uma vez que esse ainda não foi desenvolvido, o material que há para sua análise é documental. Entretante, é possível acessar este protótipo navegável no Figma. Para acessar, <a href = "https://www.figma.com/proto/CYSqVZkAcxtwZCBaNOzzfy/Prot%C3%B3tiopo_Mobile?node-id=1%3A64&scaling=min-zoom&page-id=0%3A1">clique aqui.</a></p>
 <br>
 
 ## - Vídeo Demonstrativo e Explicativo - 
-<p align="justify"> Foi executado um vídeo sucinto para demonstrar a funcionalidade do projeto do sistema através de um protótipo e também explicar algumas tags HTML e regras CSS contidas nos códigos-fonte citados acima e encontrados no repositório.
-Para acessar o vídeo, clique neste link: https://youtu.be/DO8BErAAr_o</p>
+<p align="justify"> Um novo vídeo foi desenvolvido para explicar e mostrar as novas funcionalidades e mudanças que o projeto sofreu, sendo sucinto e buscando atentar-se aos pontos mais importantes do sistema. Para acessar e assistir a esse vídeo mais recente, por favor <a href = "https://youtu.be/7iTeU3yWxiM">clique aqui.</a></p>
+<p align="justify"> Para acessar o primeiro vídeo que foi feito sobre estre projeto, <a href = "https://youtu.be/DO8BErAAr_o">clique aqui.</a></p>
