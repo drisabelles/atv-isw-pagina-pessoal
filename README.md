@@ -1,5 +1,5 @@
-# Repo01 - Página Pessoal (repo01_paginapessoal)
-[![Generic badge](https://img.shields.io/badge/STATUS%20DO%20PROJETO-EM%20DESENVOLVIMENTO-yellow)](https://shields.io/)
+# Página Pessoal
+[![Generic badge](https://img.shields.io/badge/STATUS%20DO%20PROJETO-CONCLUÍDO-green)](https://shields.io/)
 
 <h2 text align="center">Fatec Prof Jessen Vidal - São José dos Campos</h2>
  <br>
